@@ -1,0 +1,21 @@
+{
+ "benchmark": "BioMedFn",
+ "files": {
+  "clinical.py": {
+   "sha256": "d181f6175f878bfc04347089ed02d0bf80e8bc72c034aab019db62097153820b",
+   "bytes": 32439
+  },
+  "dosing.py": {
+   "sha256": "cb338490849b3c8dc6f92386e3d23d0b125fc9ff7b065e18cd2f586ff6f796a1",
+   "bytes": 19159
+  },
+  "omics.py": {
+   "sha256": "08f794fd12d59a887e583992021bdd3c6fc8f757fd2730cb3f0582f4f27679ce",
+   "bytes": 26815
+  },
+  "biosignal.py": {
+   "sha256": "b7e3a244226a61c16466d7e4ee2e5bf04b463c35b921f3cad20f2bf8e390760f",
+   "bytes": 20916
+  }
+ }
+}

@@ -1,0 +1,59 @@
+/home/claude/TESTGEN/06_analysis.py:122: RuntimeWarning: Mean of empty slice
+  return {"fa": float(np.mean(fa)) if fa else np.nan, "n_problems": len(fa), "asserts": float(np.nanmean(n_as)) if n_as else np.nan,
+problems 195 models ['qwen0.5b', 'qwen3b']
+                                      method  alpha     fa  asserts  det_real  det_llm  mut_score  line_cov  branch_cov
+16                           Developer tests    NaN  0.000    6.710     0.871    0.686      0.943     0.974       0.946
+17                           Direct|qwen0.5b    NaN  0.364    4.251     0.710    0.568      0.823     0.940       0.889
+18                             Direct|qwen3b    NaN  0.713    7.800     0.839    0.619      0.876     0.969       0.933
+19                                   Doctest    NaN  0.010    1.005     0.548    0.195      0.406     0.464       0.420
+20                     Ideal oracle|qwen0.5b    NaN  0.000   25.508     0.871    0.924      0.918     0.952       0.936
+21                       Ideal oracle|qwen3b    NaN  0.000   29.441     0.968    0.983      0.969     0.977       0.959
+22                   N-version vote|qwen0.5b    NaN  0.282   15.744     0.452    0.381      0.560     0.779       0.702
+23                     N-version vote|qwen3b    NaN  0.354   25.662     0.903    0.559      0.861     0.928       0.903
+163          CORAL (committee only)|qwen0.5b    0.1  0.046    2.410     0.000    0.008      0.081     0.134       0.093
+166            CORAL (committee only)|qwen3b    0.1  0.000    0.000     0.000    0.000      0.000     0.000       0.000
+169        CORAL (no amplification)|qwen0.5b    0.1  0.072    2.549     0.548    0.373      0.675     0.793       0.718
+172          CORAL (no amplification)|qwen3b    0.1  0.092    5.251     0.839    0.525      0.851     0.930       0.878
+175  CORAL (unweighted direct vote)|qwen0.5b    0.1  0.051    4.236     0.129    0.034      0.207     0.363       0.254
+178    CORAL (unweighted direct vote)|qwen3b    0.1  0.000    0.000     0.000    0.000      0.000     0.000       0.000
+181                   CORAL (w = K)|qwen0.5b    0.1  0.072    2.359     0.581    0.305      0.613     0.745       0.662
+184                     CORAL (w = K)|qwen3b    0.1  0.087    5.349     0.839    0.517      0.842     0.921       0.869
+187                       CORAL K=1|qwen0.5b    0.1  0.082    2.405     0.452    0.364      0.594     0.734       0.654
+190                         CORAL K=1|qwen3b    0.1  0.082    4.954     0.806    0.466      0.793     0.887       0.823
+193                       CORAL K=2|qwen0.5b    0.1  0.087    2.462     0.452    0.364      0.640     0.770       0.687
+196                         CORAL K=2|qwen3b    0.1  0.092    5.195     0.839    0.508      0.811     0.904       0.844
+199                       CORAL K=3|qwen0.5b    0.1  0.082    2.538     0.516    0.373      0.662     0.792       0.713
+202                         CORAL K=3|qwen3b    0.1  0.087    5.226     0.839    0.508      0.828     0.907       0.852
+205                       CORAL K=4|qwen0.5b    0.1  0.082    2.569     0.581    0.381      0.679     0.805       0.729
+208                         CORAL K=4|qwen3b    0.1  0.077    5.159     0.839    0.525      0.839     0.923       0.868
+211                       CORAL K=5|qwen0.5b    0.1  0.072    2.549     0.548    0.373      0.675     0.793       0.718
+214                         CORAL K=5|qwen3b    0.1  0.092    5.251     0.839    0.525      0.851     0.930       0.878
+217                             CORAL-hetero    0.1  0.082    5.636     0.839    0.602      0.878     0.963       0.915
+220                           CORAL|qwen0.5b    0.1  0.072    2.549     0.548    0.373      0.675     0.793       0.718
+223                             CORAL|qwen3b    0.1  0.092    5.251     0.839    0.525      0.851     0.930       0.878
+226                     Direct+conf|qwen0.5b    0.1  0.082    2.185     0.548    0.407      0.633     0.779       0.698
+229                       Direct+conf|qwen3b    0.1  0.077    2.831     0.548    0.339      0.620     0.755       0.672
+                                     method  fa_mean share_ok  det_real  det_llm  mut_score  asserts
+1           CORAL (committee only)|qwen0.5b    0.057    0.946     0.102    0.033      0.184    4.434
+4             CORAL (committee only)|qwen3b    0.024    0.842     0.102    0.049      0.099    2.706
+7         CORAL (no amplification)|qwen0.5b    0.091    0.572     0.569    0.399      0.692    2.621
+10          CORAL (no amplification)|qwen3b    0.090    0.596     0.839    0.508      0.841    5.215
+13  CORAL (unweighted direct vote)|qwen0.5b    0.058    0.946     0.225    0.074      0.278    4.890
+16    CORAL (unweighted direct vote)|qwen3b    0.038    0.728     0.185    0.089      0.175    4.511
+19                   CORAL (w = K)|qwen0.5b    0.078    0.852     0.572    0.308      0.614    2.820
+22                     CORAL (w = K)|qwen3b    0.089    0.658     0.838    0.505      0.839    5.319
+25                       CORAL K=1|qwen0.5b    0.090    0.584     0.510    0.375      0.617    2.449
+28                         CORAL K=1|qwen3b    0.089    0.592     0.802    0.465      0.795    4.970
+31                       CORAL K=2|qwen0.5b    0.091    0.556     0.502    0.374      0.653    2.482
+34                         CORAL K=2|qwen3b    0.088    0.644     0.839    0.503      0.816    5.172
+37                       CORAL K=3|qwen0.5b    0.090    0.596     0.545    0.388      0.674    2.586
+40                         CORAL K=3|qwen3b    0.088    0.596     0.837    0.509      0.831    5.205
+43                       CORAL K=4|qwen0.5b    0.091    0.568     0.583    0.394      0.682    2.601
+46                         CORAL K=4|qwen3b    0.088    0.594     0.832    0.515      0.838    5.207
+49                       CORAL K=5|qwen0.5b    0.091    0.572     0.569    0.399      0.692    2.621
+52                         CORAL K=5|qwen3b    0.090    0.596     0.839    0.508      0.841    5.215
+55                             CORAL-hetero    0.091     0.57     0.835    0.605      0.878    5.667
+58                           CORAL|qwen0.5b    0.091    0.572     0.569    0.399      0.692    2.621
+61                             CORAL|qwen3b    0.090    0.596     0.839    0.508      0.841    5.215
+64                     Direct+conf|qwen0.5b    0.091    0.612     0.517    0.400      0.616    2.137
+67                       Direct+conf|qwen3b    0.092    0.582     0.608    0.369      0.655    2.984

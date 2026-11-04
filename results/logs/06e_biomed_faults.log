@@ -1,0 +1,64 @@
+              method  alpha       by                     level   n  detected  share
+        CORAL-hetero    0.1 category   coefficient or constant  17        16  0.941
+        CORAL-hetero    0.1 category      formula or estimator  22        21  0.955
+        CORAL-hetero    0.1 category         logic or indexing  13        12  0.923
+        CORAL-hetero    0.1 category missing step or safeguard  15        13  0.867
+        CORAL-hetero    0.1 category     threshold or boundary  29        12  0.414
+        CORAL-hetero    0.1 category             unit or scale  13        12  0.923
+        CORAL-hetero    0.1      all                       all 109        86  0.789
+      CORAL|qwen0.5b    0.1 category   coefficient or constant  17        13  0.765
+      CORAL|qwen0.5b    0.1 category      formula or estimator  22        15  0.682
+      CORAL|qwen0.5b    0.1 category         logic or indexing  13        10  0.769
+      CORAL|qwen0.5b    0.1 category missing step or safeguard  15         6  0.400
+      CORAL|qwen0.5b    0.1 category     threshold or boundary  29         5  0.172
+      CORAL|qwen0.5b    0.1 category             unit or scale  13         8  0.615
+      CORAL|qwen0.5b    0.1      all                       all 109        57  0.523
+        CORAL|qwen3b    0.1 category   coefficient or constant  17        15  0.882
+        CORAL|qwen3b    0.1 category      formula or estimator  22        21  0.955
+        CORAL|qwen3b    0.1 category         logic or indexing  13        12  0.923
+        CORAL|qwen3b    0.1 category missing step or safeguard  15        12  0.800
+        CORAL|qwen3b    0.1 category     threshold or boundary  29        11  0.379
+        CORAL|qwen3b    0.1 category             unit or scale  13        12  0.923
+        CORAL|qwen3b    0.1      all                       all 109        83  0.761
+     Developer tests    NaN category   coefficient or constant  17        17  1.000
+     Developer tests    NaN category      formula or estimator  22        22  1.000
+     Developer tests    NaN category         logic or indexing  13        13  1.000
+     Developer tests    NaN category missing step or safeguard  15        15  1.000
+     Developer tests    NaN category     threshold or boundary  29        29  1.000
+     Developer tests    NaN category             unit or scale  13        13  1.000
+     Developer tests    NaN      all                       all 109       109  1.000
+Direct+conf|qwen0.5b    0.1 category   coefficient or constant  17         4  0.235
+Direct+conf|qwen0.5b    0.1 category      formula or estimator  22         6  0.273
+Direct+conf|qwen0.5b    0.1 category         logic or indexing  13         5  0.385
+Direct+conf|qwen0.5b    0.1 category missing step or safeguard  15         3  0.200
+Direct+conf|qwen0.5b    0.1 category     threshold or boundary  29         3  0.103
+Direct+conf|qwen0.5b    0.1 category             unit or scale  13         6  0.462
+Direct+conf|qwen0.5b    0.1      all                       all 109        27  0.248
+  Direct+conf|qwen3b    0.1 category   coefficient or constant  17        15  0.882
+  Direct+conf|qwen3b    0.1 category      formula or estimator  22        20  0.909
+  Direct+conf|qwen3b    0.1 category         logic or indexing  13        11  0.846
+  Direct+conf|qwen3b    0.1 category missing step or safeguard  15        12  0.800
+  Direct+conf|qwen3b    0.1 category     threshold or boundary  29         7  0.241
+  Direct+conf|qwen3b    0.1 category             unit or scale  13        12  0.923
+  Direct+conf|qwen3b    0.1      all                       all 109        77  0.706
+     Direct|qwen0.5b    NaN category   coefficient or constant  17        15  0.882
+     Direct|qwen0.5b    NaN category      formula or estimator  22        21  0.955
+     Direct|qwen0.5b    NaN category         logic or indexing  13        13  1.000
+     Direct|qwen0.5b    NaN category missing step or safeguard  15        12  0.800
+     Direct|qwen0.5b    NaN category     threshold or boundary  29         7  0.241
+     Direct|qwen0.5b    NaN category             unit or scale  13        12  0.923
+     Direct|qwen0.5b    NaN      all                       all 109        80  0.734
+       Direct|qwen3b    NaN category   coefficient or constant  17        17  1.000
+       Direct|qwen3b    NaN category      formula or estimator  22        21  0.955
+       Direct|qwen3b    NaN category         logic or indexing  13        13  1.000
+       Direct|qwen3b    NaN category missing step or safeguard  15        13  0.867
+       Direct|qwen3b    NaN category     threshold or boundary  29        12  0.414
+       Direct|qwen3b    NaN category             unit or scale  13        12  0.923
+       Direct|qwen3b    NaN      all                       all 109        88  0.807
+             Doctest    NaN category   coefficient or constant  17        15  0.882
+             Doctest    NaN category      formula or estimator  22        21  0.955
+             Doctest    NaN category         logic or indexing  13        13  1.000
+             Doctest    NaN category missing step or safeguard  15        12  0.800
+             Doctest    NaN category     threshold or boundary  29         6  0.207
+             Doctest    NaN category             unit or scale  13        12  0.923
+             Doctest    NaN      all                       all 109        79  0.725

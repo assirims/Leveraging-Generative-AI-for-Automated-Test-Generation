@@ -1,0 +1,13 @@
+Qwen2.5-0.5B [biomed]: 112 problems, 0 logged responses; LLM_THREADS=8; platform=win32
+  10/112  120s
+  20/112  255s
+  30/112  393s
+  40/112  536s
+  50/112  663s
+  60/112  760s
+  70/112  882s
+  80/112  997s
+  90/112  1125s
+  100/112  1221s
+  110/112  1336s
+done in 1353s

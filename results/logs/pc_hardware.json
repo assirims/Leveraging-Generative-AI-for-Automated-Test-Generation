@@ -1,0 +1,8 @@
+﻿{
+    "cores":  16,
+    "ram_gb":  63.5,
+    "os":  "Microsoft Windows 11 Pro",
+    "logical":  22,
+    "llm_threads":  8,
+    "cpu":  "Intel(R) Core(TM) Ultra 9 185H"
+}

@@ -1,0 +1,24 @@
+development model qwen0.5b: 195 problems
+                                                        variant  alpha     fa  mut_score  asserts  det_llm  det_real
+0                                                   Direct+conf    0.1  0.089      0.623    2.154    0.404     0.530
+1                                                   Direct+conf    0.2  0.187      0.768    2.965    0.511     0.625
+2                                                         w = 1    0.1  0.057      0.279    4.930    0.076     0.231
+3                                                         w = 1    0.2  0.150      0.472    9.774    0.236     0.352
+4                                    w = 1, confidence-weighted    0.1  0.058      0.279    4.906    0.078     0.234
+5                                    w = 1, confidence-weighted    0.2  0.145      0.476    9.771    0.238     0.354
+6                w = 1, confidence-weighted, abstaining channel    0.1  0.058      0.283    4.933    0.078     0.235
+7                w = 1, confidence-weighted, abstaining channel    0.2  0.148      0.476    9.756    0.238     0.354
+8    w = 2K, confidence-weighted, abstaining channel (selected)    0.1  0.089      0.695    2.629    0.400     0.571
+9    w = 2K, confidence-weighted, abstaining channel (selected)    0.2  0.185      0.799    3.180    0.527     0.652
+10                                   w = 3, confidence-weighted    0.1  0.056      0.286    4.865    0.084     0.239
+11                                   w = 3, confidence-weighted    0.2  0.158      0.546    9.857    0.303     0.415
+12               w = 3, confidence-weighted, abstaining channel    0.1  0.078      0.498    5.223    0.223     0.407
+13               w = 3, confidence-weighted, abstaining channel    0.2  0.178      0.619    9.780    0.360     0.535
+14                                    w = K, abstaining channel    0.1  0.054      0.512    2.098    0.236     0.431
+15                                    w = K, abstaining channel    0.2  0.118      0.617    2.529    0.306     0.580
+16                                   w = K, confidence-weighted    0.1  0.056      0.287    4.860    0.084     0.239
+17                                   w = K, confidence-weighted    0.2  0.152      0.554    9.724    0.305     0.416
+18               w = K, confidence-weighted, abstaining channel    0.1  0.076      0.617    2.750    0.309     0.577
+19               w = K, confidence-weighted, abstaining channel    0.2  0.185      0.770    6.661    0.474     0.627
+20  w = K, confidence-weighted, abstaining channel, informative    0.1  0.076      0.617    2.724    0.309     0.577
+21  w = K, confidence-weighted, abstaining channel, informative    0.2  0.185      0.769    6.418    0.474     0.627

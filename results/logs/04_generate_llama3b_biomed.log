@@ -1,0 +1,13 @@
+Llama-3.2-3B [biomed]: 112 problems, 0 logged responses; LLM_THREADS=8; platform=win32
+  10/112  129s
+  20/112  234s
+  30/112  385s
+  40/112  493s
+  50/112  579s
+  60/112  679s
+  70/112  811s
+  80/112  920s
+  90/112  1060s
+  100/112  1163s
+  110/112  1287s
+done in 1302s

@@ -1,0 +1,82 @@
+comparison,alpha,measure,rate_A,rate_B,n,only_B,only_A,p,test
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.05,false_alarm,0.02564102564102564,0.05128205128205128,195,8,3,0.2265625,McNemar (exact)
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.05,detection_real_llm,0.24161073825503357,0.31543624161073824,149,17,6,0.03468966484069824,McNemar (exact)
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.05,mutation_score,0.3536038188199908,0.5506107454585629,187,66,12,1.4570327051734763e-08,Wilcoxon signed-rank
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.05,false_alarm,0.3641025641025641,0.05128205128205128,195,0,61,8.673617379884035e-19,McNemar (exact)
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.05,detection_real_llm,0.5973154362416108,0.31543624161073824,149,0,42,4.547473508864641e-13,McNemar (exact)
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.05,mutation_score,0.8234562258481953,0.5506107454585629,187,0,77,2.0262535957285875e-14,Wilcoxon signed-rank
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.05,false_alarm,0.046153846153846156,0.05128205128205128,195,9,8,1.0,McNemar (exact)
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.05,detection_real_llm,0.006711409395973154,0.31543624161073824,149,47,1,3.481659405224491e-13,McNemar (exact)
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.05,mutation_score,0.0811732392988876,0.5506107454585629,187,112,5,7.084563781313785e-21,Wilcoxon signed-rank
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.05,false_alarm,0.05128205128205128,0.05128205128205128,195,0,0,1.0,McNemar (exact)
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.05,detection_real_llm,0.31543624161073824,0.31543624161073824,149,0,0,1.0,McNemar (exact)
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.05,mutation_score,0.5506107454585629,0.5506107454585629,187,0,0,1.0,Wilcoxon signed-rank
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.1,false_alarm,0.08205128205128205,0.07179487179487179,195,5,7,0.7744140625,McNemar (exact)
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.1,detection_real_llm,0.436241610738255,0.40939597315436244,149,3,7,0.34375,McNemar (exact)
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.1,mutation_score,0.6332256075632519,0.6748648412775887,187,35,14,0.03071112384795638,Wilcoxon signed-rank
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.1,false_alarm,0.3641025641025641,0.07179487179487179,195,0,57,1.3877787807814457e-17,McNemar (exact)
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.1,detection_real_llm,0.5973154362416108,0.40939597315436244,149,0,28,7.450580596923828e-09,McNemar (exact)
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.1,mutation_score,0.8234562258481953,0.6748648412775887,187,0,48,1.5435303808187833e-09,Wilcoxon signed-rank
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.1,false_alarm,0.046153846153846156,0.07179487179487179,195,13,8,0.38331031799316406,McNemar (exact)
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.1,detection_real_llm,0.006711409395973154,0.40939597315436244,149,61,1,2.7321894746634712e-17,McNemar (exact)
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.1,mutation_score,0.0811732392988876,0.6748648412775887,187,135,4,8.8754570623814e-25,Wilcoxon signed-rank
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.1,false_alarm,0.07179487179487179,0.07179487179487179,195,0,0,1.0,McNemar (exact)
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.1,detection_real_llm,0.40939597315436244,0.40939597315436244,149,0,0,1.0,McNemar (exact)
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.1,mutation_score,0.6748648412775887,0.6748648412775887,187,0,0,1.0,Wilcoxon signed-rank
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.2,false_alarm,0.19487179487179487,0.16923076923076924,195,3,8,0.2265625,McNemar (exact)
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.2,detection_real_llm,0.5436241610738255,0.5503355704697986,149,2,1,1.0,McNemar (exact)
+Qwen2.5-0.5B: Direct + confidence (A) vs CORAL (B),0.2,mutation_score,0.7648256117560687,0.7909133670694298,187,13,1,0.009112763665900123,Wilcoxon signed-rank
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.2,false_alarm,0.3641025641025641,0.16923076923076924,195,0,38,7.275957614183426e-12,McNemar (exact)
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.2,detection_real_llm,0.5973154362416108,0.5503355704697986,149,0,7,0.015625,McNemar (exact)
+Qwen2.5-0.5B: Direct (A) vs CORAL (B),0.2,mutation_score,0.8234562258481953,0.7909133670694298,187,0,12,0.0022090203462313877,Wilcoxon signed-rank
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.2,false_alarm,0.1282051282051282,0.16923076923076924,195,27,19,0.3019956131896606,McNemar (exact)
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.2,detection_real_llm,0.20134228187919462,0.5503355704697986,149,61,9,1.284387352739778e-10,McNemar (exact)
+Qwen2.5-0.5B: committee only (A) vs CORAL (B),0.2,mutation_score,0.35048763198604993,0.7909133670694298,187,117,13,4.48190198255813e-20,Wilcoxon signed-rank
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.2,false_alarm,0.16923076923076924,0.16923076923076924,195,0,0,1.0,McNemar (exact)
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.2,detection_real_llm,0.5503355704697986,0.5503355704697986,149,0,0,1.0,McNemar (exact)
+Qwen2.5-0.5B: no amplification (A) vs CORAL (B),0.2,mutation_score,0.7909133670694298,0.7909133670694298,187,0,0,1.0,Wilcoxon signed-rank
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.05,false_alarm,0.05128205128205128,0.041025641025641026,195,8,10,0.8145294189453125,McNemar (exact)
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.05,detection_real_llm,0.2684563758389262,0.4429530201342282,149,30,4,6.16488978266716e-06,McNemar (exact)
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.05,mutation_score,0.44346779652905743,0.712683071734813,187,90,7,6.77070819111407e-14,Wilcoxon signed-rank
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.05,false_alarm,0.7128205128205128,0.041025641025641026,195,0,131,7.346839692639297e-40,McNemar (exact)
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.05,detection_real_llm,0.6644295302013423,0.4429530201342282,149,0,33,2.3283064365386963e-10,McNemar (exact)
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.05,mutation_score,0.8764371948761697,0.712683071734813,187,0,52,3.297178713248232e-10,Wilcoxon signed-rank
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.05,false_alarm,0.0,0.041025641025641026,195,8,0,0.0078125,McNemar (exact)
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.05,detection_real_llm,0.0,0.4429530201342282,149,66,0,2.710505431213761e-20,McNemar (exact)
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.05,mutation_score,0.0,0.712683071734813,187,158,0,1.1981824228606332e-28,Wilcoxon signed-rank
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.05,false_alarm,0.041025641025641026,0.041025641025641026,195,0,0,1.0,McNemar (exact)
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.05,detection_real_llm,0.4429530201342282,0.4429530201342282,149,0,0,1.0,McNemar (exact)
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.05,mutation_score,0.712683071734813,0.712683071734813,187,0,0,1.0,Wilcoxon signed-rank
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.1,false_alarm,0.07692307692307693,0.09230769230769231,195,14,11,0.6900379657745361,McNemar (exact)
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.1,detection_real_llm,0.3825503355704698,0.5906040268456376,149,32,1,7.916241884231567e-09,McNemar (exact)
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.1,mutation_score,0.620372565723063,0.8505320489973602,187,85,2,1.2166044090298771e-14,Wilcoxon signed-rank
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.1,false_alarm,0.7128205128205128,0.09230769230769231,195,0,121,7.52316384526264e-37,McNemar (exact)
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.1,detection_real_llm,0.6644295302013423,0.5906040268456376,149,0,11,0.0009765625,McNemar (exact)
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.1,mutation_score,0.8764371948761697,0.8505320489973602,187,0,13,0.0014688499662158375,Wilcoxon signed-rank
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.1,false_alarm,0.0,0.09230769230769231,195,18,0,7.62939453125e-06,McNemar (exact)
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.1,detection_real_llm,0.0,0.5906040268456376,149,88,0,6.462348535570529e-27,McNemar (exact)
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.1,mutation_score,0.0,0.8505320489973602,187,176,0,3.795428701676534e-32,Wilcoxon signed-rank
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.1,false_alarm,0.09230769230769231,0.09230769230769231,195,0,0,1.0,McNemar (exact)
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.1,detection_real_llm,0.5906040268456376,0.5906040268456376,149,0,0,1.0,McNemar (exact)
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.1,mutation_score,0.8505320489973602,0.8505320489973602,187,0,0,1.0,Wilcoxon signed-rank
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.2,false_alarm,0.23076923076923078,0.18461538461538463,195,9,18,0.12207812070846558,McNemar (exact)
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.2,detection_real_llm,0.5570469798657718,0.610738255033557,149,12,4,0.076812744140625,McNemar (exact)
+Qwen2.5-3B: Direct + confidence (A) vs CORAL (B),0.2,mutation_score,0.8085278966005088,0.857386305851617,187,38,5,6.577787292579612e-05,Wilcoxon signed-rank
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.2,false_alarm,0.7128205128205128,0.18461538461538463,195,0,103,1.9721522630525295e-31,McNemar (exact)
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.2,detection_real_llm,0.6644295302013423,0.610738255033557,149,0,8,0.0078125,McNemar (exact)
+Qwen2.5-3B: Direct (A) vs CORAL (B),0.2,mutation_score,0.8764371948761697,0.857386305851617,187,0,10,0.005062032126267864,Wilcoxon signed-rank
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.2,false_alarm,0.11282051282051282,0.18461538461538463,195,27,13,0.03847730828420026,McNemar (exact)
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.2,detection_real_llm,0.38926174496644295,0.610738255033557,149,43,10,5.550520889130439e-06,McNemar (exact)
+Qwen2.5-3B: committee only (A) vs CORAL (B),0.2,mutation_score,0.6198099915702715,0.857386305851617,187,77,31,3.0891039349044726e-10,Wilcoxon signed-rank
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.2,false_alarm,0.18461538461538463,0.18461538461538463,195,0,0,1.0,McNemar (exact)
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.2,detection_real_llm,0.610738255033557,0.610738255033557,149,0,0,1.0,McNemar (exact)
+Qwen2.5-3B: no amplification (A) vs CORAL (B),0.2,mutation_score,0.857386305851617,0.857386305851617,187,0,0,1.0,Wilcoxon signed-rank
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.05,false_alarm,0.041025641025641026,0.035897435897435895,195,4,5,1.0,McNemar (exact)
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.05,detection_real_llm,0.4429530201342282,0.5838926174496645,149,28,7,0.0005082604475319386,McNemar (exact)
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.05,mutation_score,0.712683071734813,0.8321639006732716,187,48,20,4.548208698827285e-06,Wilcoxon signed-rank
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.1,false_alarm,0.09230769230769231,0.08205128205128205,195,5,7,0.7744140625,McNemar (exact)
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.1,detection_real_llm,0.5906040268456376,0.6510067114093959,149,13,4,0.049041748046875,McNemar (exact)
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.1,mutation_score,0.8505320489973602,0.8783223669319514,187,21,9,0.06260642406081907,Wilcoxon signed-rank
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.2,false_alarm,0.18461538461538463,0.18461538461538463,195,15,15,1.0,McNemar (exact)
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.2,detection_real_llm,0.610738255033557,0.6912751677852349,149,13,1,0.0018310546875,McNemar (exact)
+CORAL Qwen2.5-3B (A) vs pooled committee (B),0.2,mutation_score,0.857386305851617,0.9016319250599728,187,22,3,0.0004928681833502385,Wilcoxon signed-rank

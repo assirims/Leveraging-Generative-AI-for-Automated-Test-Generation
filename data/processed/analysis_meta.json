@@ -1,0 +1,12 @@
+{
+ "models": [
+  "qwen0.5b",
+  "qwen3b"
+ ],
+ "n_problems": 195,
+ "faults": {
+  "real": 31,
+  "llm": 118,
+  "mutant": 2816
+ }
+}
